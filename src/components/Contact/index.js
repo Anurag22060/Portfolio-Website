@@ -4,6 +4,12 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
+
+
+console.log('Environment variables:');
+console.log(process.env);
+
+
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -121,7 +127,6 @@ const ContactButton = styled.input`
 `
 
 
-
 const Contact = () => {
 
   //hooks
@@ -130,7 +135,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+  emailjs.sendForm(process.env.REACT_APP_SERVICE_KEY, process.env.REACT_APP_TEMPLATE_KEY, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
         setOpen(true);
         form.current.reset();
