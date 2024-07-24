@@ -216,7 +216,7 @@ export const projects = [
     description:
       "Discover a new era of video-sharing with our React-based YouTube clone. This project redefines the user experience with its intuitive interface, responsive design, and innovative features. From dynamic recommendations and real-time interactivity to advanced search capabilities, our clone is more than just a mimicry of popular platforms. Content creators benefit from easy video management, while viewers enjoy a seamless and personalized browsing experience. Powered by React on the frontend, a robust server on the backend, and secure authentication, this clone is designed to elevate your video-sharing journey. Join us and explore a world where sharing and discovering content is effortless and enjoyable.",
     image:
-      "https://raw.githubusercontent.com/Anurag22060/youtube_clone/master/src/Images/Youtube_clone.png",
+      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Youtube_clone.png?raw=true",
     tags: [
        "React Js",
       "JavaScript",
@@ -233,7 +233,7 @@ export const projects = [
     description:
       "This project is about providing users with a simple and convenient platform for buying and selling a variety of fresh flowers.",
     image:
-      "https://drive.google.com/file/d/155WtQ4fG8fmx0E3R7zFHa7-sez93N2Il/view?usp=sharing",
+      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Flower_Selling_website.png?raw=true",
     tags: ["HTML", "CSS", "JAVASCRIPT",],
     category: "web app",
     github: "https://github.com/Anurag22060/Ecommerce-Website-Project",
@@ -247,7 +247,7 @@ export const projects = [
     description:
       "Welcome to PineArtistry, an animated website crafted with passion and creativity! This immersive online space is a testament to the seamless integration of design and technology, offering visitors an engaging and dynamic experience like never before.",
     image:
-      "https://drive.google.com/file/d/1hYY892J2FRr9rPP8eqsafgLkGy9HXZlY/view?usp=sharing",
+      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Animated_Website.png?raw=true",
     tags: [
      "HTML", "CSS", "JAVASCRIPT","Javascript Libraries","Animation Library",
     ],
@@ -261,7 +261,7 @@ export const projects = [
     description:
       "An Image Searching Website using Api Search Images",
     image:
-      "https://drive.google.com/file/d/1FcOAQXn6AJyzphUzN5ZuuMnwEPupZ3tr/view?usp=sharing",
+      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Image%20Search.png?raw=true",
     tags: ["HTML", "CSS", "JAVASCRIPT","APIs",],
     github: "https://github.com/Anurag22060/Image-Search-App",
     webapp: "https://anurag22060.github.io/Image-Search-App/",
@@ -273,7 +273,7 @@ export const projects = [
     description:
       "Memes Generator API is a website that provides a simple interface for generating and displaying memes. It offers a curated collection of popular memes, allowing users to browse and view humorous content effortlessly.",
     image:
-      "https://drive.google.com/file/d/1elZB9_jVOOgMdu0ygnkpS0s7QSqGNuLI/view?usp=sharing",
+      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Meme_Generator.png?raw=true",
     tags: ["HTML", "CSS", "JAVASCRIPT","APIs",],
     github: "https://github.com/Anurag22060/Memes-Generator",
     webapp: "https://anurag22060.github.io/Memes-Generator/",
@@ -284,7 +284,7 @@ export const projects = [
     description:
       "Instruments Sound is a website where users can play different musical instruments virtually. Explore and interact with a wide variety of instruments, producing authentic sounds directly from your browser",
     image:
-      "https://drive.google.com/file/d/1Mow3HYOtw8TkrVfNxbGpqxEjVyLko0zW/view?usp=sharing",
+      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Instrument.png?raw=true",
     tags: ["HTML", "CSS", "JAVASCRIPT","APIs",],
 
     github: "https://github.com/Anurag22060/Instruments-Sound",
@@ -296,7 +296,7 @@ export const projects = [
     description:
       "Tinder For Dogs is a fun and interactive website that helps dog owners connect their pets with new friends. Create a profile for your dog, swipe through other furry friends in your area, and set up playdates to keep your canine companion happy and socialized.",
     image:
-      "https://drive.google.com/file/d/1VIBXlBAag5GdZldiabz7MOeSF0MveaUZ/view?usp=sharing",
+      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/TinderForDogs.png?raw=true",
     tags: ["HTML", "CSS", "JAVASCRIPT"],
     category: "web app",
     github: "https://github.com/Anurag22060/Tinder-For-Dogs-",
