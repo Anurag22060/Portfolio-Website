@@ -5,11 +5,6 @@ import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
 
-
-console.log('Environment variables:');
-console.log(process.env);
-
-
 const Container = styled.div`
 display: flex;
 flex-direction: column;
