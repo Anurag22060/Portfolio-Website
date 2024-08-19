@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Anurag22060",
   resume:
-    "https://drive.google.com/file/d/1BT7xgzwos1ipD6AB7zdtgQQuPx-RuU09/view?usp=sharing",
+    "https://drive.google.com/file/d/1H1wCmGUlmRqrLkphW9WFzs04eIDlAkHw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sawal-anurag22603/",
   insta: "https://www.instagram.com/anurag_22_0/",
   // facebook: "https://www.facebook.com/AnuragSawal/",
