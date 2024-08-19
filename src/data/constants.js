@@ -223,7 +223,7 @@ export const projects = [
       "TailwandCSS",
       "APIs",
     ],
-    category: "web app",
+    
     github: "https://github.com/Anurag22060/youtube_clone",
     webapp: "https://pineartistry-youtube-clone.netlify.app/",
   },
