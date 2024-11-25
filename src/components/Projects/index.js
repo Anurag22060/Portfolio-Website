@@ -27,6 +27,20 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
           }
           <Divider />
+
+          {toggle === 'fullstack' ?
+            <ToggleButton active value="fullstack" onClick={() => setToggle('fullstack')}>Fullstack Application</ToggleButton>
+            :
+            <ToggleButton value="fullstack" onClick={() => setToggle('fullstack')}>Fullstack Application</ToggleButton>
+          }
+          <Divider />
+          
+          {toggle === 'java app' ?
+            <ToggleButton active value="java app" onClick={() => setToggle('java app')}>JAVA APP'S</ToggleButton>
+            :
+            <ToggleButton value="java app" onClick={() => setToggle('java app')}>JAVA APP'S</ToggleButton>
+          }
+          <Divider />
           {/* {toggle === 'android app' ?
             <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
             :

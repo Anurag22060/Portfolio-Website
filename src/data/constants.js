@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Anurag22060",
   resume:
-    "https://drive.google.com/file/d/1H1wCmGUlmRqrLkphW9WFzs04eIDlAkHw/view?usp=sharing",
+    "/Anurag_Resume6.pdf",
   linkedin: "https://www.linkedin.com/in/sawal-anurag22603/",
   insta: "https://www.instagram.com/anurag_22_0/",
   // facebook: "https://www.facebook.com/AnuragSawal/",
@@ -228,12 +228,39 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "AI Room Redesigner",
+    category: "Fullstack Application",
+    description:
+      "A Fullstack SaaS application that uses AI to visualize and redesign room layouts. It features space optimization, furniture arrangement suggestions, and a user-friendly interface, making interior design accessible and fun.",
+    image:
+      "/ai-room-redesign-img.png",
+    tags:  ["AI", "Room Redesigner", "Interior Design", "Fullstack", "SaaS", "Artificial Intelligence", "Space Optimization"],
+    
+    github: "https://github.com/Anurag22060/",
+    webapp: "https://ai-room-redesigner.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "AI Interview Mock",
+    category: "Fullstack Application",
+    description:
+      "A Fullstack SaaS application designed for interview preparation. It simulates real-time AI-powered interview sessions, provides feedback for improvement, and offers an interactive experience for candidates to practice effectively.",
+    image:
+      "/AI-Mock-img.png",
+    tags:  ["AI", "Interview Prep", "Mock Interview", "Fullstack", "SaaS", "Artificial Intelligence", "Career Development"],
+    
+    github: "https://github.com/Anurag22060/",
+    webapp: "https://ai-interview-mock.vercel.app/dashboard",
+  },
+
+  {
+    id: 2,
     title: "React-Based YouTube Clone",
     category: "web app",
     description:
       "Discover a new era of video-sharing with our React-based YouTube clone. This project redefines the user experience with its intuitive interface, responsive design, and innovative features. From dynamic recommendations and real-time interactivity to advanced search capabilities, our clone is more than just a mimicry of popular platforms. Content creators benefit from easy video management, while viewers enjoy a seamless and personalized browsing experience. Powered by React on the frontend, a robust server on the backend, and secure authentication, this clone is designed to elevate your video-sharing journey. Join us and explore a world where sharing and discovering content is effortless and enjoyable.",
     image:
-      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Youtube_clone.png?raw=true",
+      "/Youtube_clone.png",
     tags: [
        "React Js",
       "JavaScript",
@@ -245,12 +272,12 @@ export const projects = [
     webapp: "https://pineartistry-youtube-clone.netlify.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "E-commerce Flower Selling website Design",
     description:
       "This project is about providing users with a simple and convenient platform for buying and selling a variety of fresh flowers.",
     image:
-      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Flower_Selling_website.png?raw=true",
+      "/Flower_Selling_website.png",
     tags: ["HTML", "CSS", "JAVASCRIPT",],
     category: "web app",
     github: "https://github.com/Anurag22060/Ecommerce-Website-Project",
@@ -258,13 +285,13 @@ export const projects = [
    
   },
   {
-    id: 2,
+    id: 4,
     title: "Modern Animated Websites",
     category: "web app",
     description:
       "Welcome to PineArtistry, an animated website crafted with passion and creativity! This immersive online space is a testament to the seamless integration of design and technology, offering visitors an engaging and dynamic experience like never before.",
     image:
-      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Animated_Website.png?raw=true",
+      "/Animated_Website.png",
     tags: [
      "HTML", "CSS", "JAVASCRIPT","Javascript Libraries","Animation Library",
     ],
@@ -273,47 +300,74 @@ export const projects = [
     webapp: "https://pineartistry-animation-website3.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Image Search App",
     description:
       "An Image Searching Website using Api Search Images",
     image:
-      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Image%20Search.png?raw=true",
+      "/Image_Search.png",
     tags: ["HTML", "CSS", "JAVASCRIPT","APIs",],
     github: "https://github.com/Anurag22060/Image-Search-App",
     webapp: "https://anurag22060.github.io/Image-Search-App/",
     
   },
   {
-    id: 4,
+    id: 6,
     title: "Memes Generator",
     description:
       "Memes Generator API is a website that provides a simple interface for generating and displaying memes. It offers a curated collection of popular memes, allowing users to browse and view humorous content effortlessly.",
     image:
-      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Meme_Generator.png?raw=true",
+      "/Meme_Generator.png",
     tags: ["HTML", "CSS", "JAVASCRIPT","APIs",],
     github: "https://github.com/Anurag22060/Memes-Generator",
     webapp: "https://anurag22060.github.io/Memes-Generator/",
   },
   {
-    id: 6,
+    id: 7,
+    title: "Chat Application",
+    category: "java app",
+    description:
+      "A real-time chat application built using Java, featuring functionalities like private messaging, group chats, and a smooth, user-friendly interface. It focuses on reliability and secure communication.",
+    image:
+      "/chat-img.png",
+    tags: ["Java", "Chat Application", "Real-Time", "Messaging", "Secure Communication", "Group Chat", "Private Messaging"],
+    
+    github: "https://github.com/Anurag22060/Chatting-Application",
+    webapp: "https://github.com/Anurag22060/Chatting-Application",
+  },
+  {
+    id: 8,
+    title: "Link Generator",
+    category: "web app",
+    description:
+      "A MERN stack application that allows users to upload files and generate secure shareable links. It ensures seamless file sharing with features like link expiration and file size optimization.",
+    image:
+      "/link-img.png",
+    tags: ["File Sharing", "MERN Stack", "File to Link", "Web App", "Secure Sharing", "Link Generation", "File Upload"],
+    
+    github: "https://github.com/Anurag22060/File-Sharing-Website",
+    webapp: "https://github.com/Anurag22060/File-Sharing-Website",
+  },
+
+  {
+    id: 9,
     title: "Instruments Sound",
     description:
       "Instruments Sound is a website where users can play different musical instruments virtually. Explore and interact with a wide variety of instruments, producing authentic sounds directly from your browser",
     image:
-      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/Instrument.png?raw=true",
+      "/Instrument.png",
     tags: ["HTML", "CSS", "JAVASCRIPT","APIs",],
 
     github: "https://github.com/Anurag22060/Instruments-Sound",
     webapp: " https://anurag22060.github.io/Instruments-Sound/",
   },
   {
-    id: 5,
+    id: 10,
     title: "Tinder For Dogs Design",
     description:
       "Tinder For Dogs is a fun and interactive website that helps dog owners connect their pets with new friends. Create a profile for your dog, swipe through other furry friends in your area, and set up playdates to keep your canine companion happy and socialized.",
     image:
-      "https://github.com/Anurag22060/Portfolio-Website/blob/main/src/images/TinderForDogs.png?raw=true",
+      "/TinderForDogs.png",
     tags: ["HTML", "CSS", "JAVASCRIPT"],
     category: "web app",
     github: "https://github.com/Anurag22060/Tinder-For-Dogs-",
